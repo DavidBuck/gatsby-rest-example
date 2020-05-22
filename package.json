@@ -15,7 +15,6 @@
     "gatsby-plugin-postcss": "^2.3.1",
     "gatsby-plugin-react-helmet": "^3.3.1",
     "gatsby-plugin-sharp": "^2.6.2",
-    "gatsby-source-filesystem": "^2.3.1",
     "gatsby-transformer-sharp": "^2.5.2",
     "json-server": "^0.16.1",
     "prop-types": "^15.7.2",
@@ -40,7 +39,7 @@
     "prettier": "2.0.5"
   },
   "scripts": {
-    "build": "NODE_ENV=production gatsby build",
+    "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "serve": "gatsby serve",
